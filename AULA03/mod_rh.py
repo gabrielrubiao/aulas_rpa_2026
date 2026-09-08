@@ -5,6 +5,7 @@ def cadastrar_colaborador(nome: str, cargo: str, salario: float) -> dict:
         "salario": salario
     }
 
+
 def exibir_colaboradores(lista_colaboradores: list) -> None:
     if not lista_colaboradores:
         print("\n[!] Nenhum colaborador cadastrado.")

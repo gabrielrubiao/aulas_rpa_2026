@@ -1,5 +1,6 @@
 from mod_rh import cadastrar_colaborador, exibir_colaboradores
 
+
 def exibir_menu():
     print("\n" + "#"*30)
     print(f"{'SISTEMA DE PRÉ-CADASTRO RH':^30}")
@@ -8,6 +9,7 @@ def exibir_menu():
     print("2 - Listar Colaboradores")
     print("0 - Sair")
     print("#"*30)
+
 
 def executar_sistema():
     colaboradores_em_memoria = []
