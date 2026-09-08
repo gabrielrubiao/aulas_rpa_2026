@@ -43,5 +43,6 @@ def executar_sistema():
         else:
             print("\n[!] Opção inválida.")
 
+
 if __name__ == "__main__":
     executar_sistema()
